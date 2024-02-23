@@ -11,6 +11,7 @@ macro_rules! handle_request {
             $request
                 .text(page.text.clone().unwrap())
                 .reply_markup(markup::markup($page_index, $pages.len()))
+                .parse_mode(ParseMode::Html)
         }
     };
 }
