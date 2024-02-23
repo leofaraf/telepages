@@ -13,7 +13,7 @@ async fn main() {
             .text(Some("Start page".into()))
             .build(),
         Page::builder()
-            .text(Some("Info page".into()))
+            .text(Some("Middle page".into()))
             .build(),
         Page::builder()
             .text(Some("End page".into()))
